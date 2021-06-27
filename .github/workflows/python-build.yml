@@ -18,6 +18,8 @@ jobs:
       run: |
         pip3 install pyinstaller
         pyinstaller App.py
+    - name: Organise
+      run: mv dist/App dist/App-{{ $runner.os }}
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
