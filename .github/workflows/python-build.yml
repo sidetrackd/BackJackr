@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set up PyInstaller and build
       run: |
-        pip3 install pyinstaller
+        pip3 install -r requirements.txt
         pyinstaller App.py
     - name: Organise
       run: mv dist/App dist/App-${{runner.os}}
