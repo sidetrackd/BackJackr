@@ -12,4 +12,4 @@ pymatting>=1.1.1
 filetype>=1.0.7
 hsh>=1.1.0
 pyinstaller>=4.3
-rembg>=1.0.26
+rembg
