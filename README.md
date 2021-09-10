@@ -1,4 +1,5 @@
 # BackJackr
+![Build Status](https://github.com/sidetrackd/BackJackr/actions/workflows/python-build.yml/badge.svg?branch=main)
 > _Remove backgrounds_
 
 Have you ever wanted to quickly crop out that dull, old beach from the background of your family vacation photo, and instead wanted to replace it with a better vacationing spot, say, the Eiffel Tower? Well, there's a ton of online tools out there for that. You just have to upload your photo to that shady, who-knows-whos server. As simple as that!
