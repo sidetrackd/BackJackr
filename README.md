@@ -14,14 +14,14 @@ The End.
 
 ### Requirements
 
-* python 3.8 or newer
-* torch and torchvision stable version (https://pytorch.org)
-* [rembg](https://github.com/danielgatis/rembg)
+- python 3.8 or newer
+- torch and torchvision stable version (https://pytorch.org)
+- [rembg](https://github.com/danielgatis/rembg)
 
 ### The Steps
 
 ```bash
-pip install torch torchvision rembg
+pip install -r requirements.txt
 python App.py
 ```
 _*for using CUDA, and such, go to [pytorch](https://pytorch.org)_ 
